@@ -68,15 +68,20 @@ const ROSE_PALETTES = {
 /**
  * Friendly, cheerful, non-cheesy 20/10 wishes displayed when roses bloom
  */
+
+  /**
+ * Personal 20/10 wishes for Ngoc Diep from anh Luc
+ */
 const WHISPER_NOTES = [
-  'Chúc bạn một ngày 20/10 ngập tràn yêu thương và những bất ngờ nho nhỏ.',
-  'Mong bạn luôn được lắng nghe, trân trọng và yêu thương theo cách mình xứng đáng.',
-  'Chúc bạn đủ bình yên để nghỉ ngơi, đủ tự tin để theo đuổi điều mình thích.',
-  'Một bông hoa dành cho nụ cười của bạn. Hôm nay nhớ vui thật nhiều nhé!',
-  'Chúc những dự định của bạn sớm đơm hoa, từng chút một, theo nhịp của riêng mình.',
-  'Mong mỗi ngày của bạn đều có một lý do thật nhỏ để mỉm cười.',
-  'Chúc bạn luôn khỏe mạnh, an yên và có thật nhiều thời gian cho chính mình.'
+  'Chúc bé iuuu Ngọc Diệp một ngày 20/10 ngập tràn niềm vui và sự dịu dàng.',
+  'Anh Lực mong Ngọc Diệp luôn xinh đẹp, tự tin và hay cười nhé!',
+  'Một bông hoa nhỏ dành riêng cho nụ cười rạng rỡ của bé iuuu.',
+  'Cảm ơn em Ngọc Diệp đã đến và mang lại thật nhiều hạnh phúc cho anh Lực.',
+  'Mong mọi điều ước của em sớm thành hiện thực, anh sẽ luôn bên cạnh ủng hộ em.',
+  'Chúc bé iuuu luôn khỏe mạnh, an yên và có anh Lực đồng hành trong mọi khoảnh khắc.',
+  'Ngọc Diệp chính là bông hoa xinh đẹp và rạng rỡ nhất trong lòng anh Lực!'
 ];
+
 
 /**
  * Pre-renders a single high-DPI realistic rose into 5 independent botanical layers
