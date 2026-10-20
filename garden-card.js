@@ -23,10 +23,10 @@
     return copy.textContent.trim();
   }
   let greeting = {
-    recipient: readText(recipient),
-    title: readText(title),
-    message: [...message.querySelectorAll('p')].map(readText).join('\n\n'),
-    signature: readText(signature)
+    recipient: 'bé iuuu Ngọc Diệp',
+    title: 'Mong những điều ngọt ngào nhất luôn nở bên em.',
+    message: 'Một bông hoa có thể làm một ngày thêm đẹp.\nCòn bé iuuu thì làm cho cả thế giới của anh Lực tràn ngập hạnh phúc.\n\nNhân ngày 20/10, chúc em luôn xinh đẹp, tự tin và tràn đầy niềm vui. Anh Lực hứa sẽ luôn ở bên, lắng nghe và yêu thương em nhiều hơn mỗi ngày.',
+    signature: 'Anh Lực gửi em thật nhiều thương mến ♡'
   };
 
   function renderGreeting() {
@@ -46,11 +46,10 @@
     if (saved && Object.entries(inputs).every(([key, input]) =>
       typeof saved[key] === 'string' && saved[key].trim() && saved[key].length <= input.maxLength)) {
       greeting = Object.fromEntries(Object.keys(inputs).map(key => [key, saved[key].trim()]));
-      renderGreeting();
     }
   } catch {
-    // Keep the original letter when storage is unavailable or malformed.
   }
+  renderGreeting();
 
   function showReading() {
     editor.hidden = true;
