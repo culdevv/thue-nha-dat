@@ -3,8 +3,8 @@
 
   const STORAGE_KEY = 'flower.greeting.20-10.v1';
   const defaultGreeting = {
-    recipient: 'bé iuuu (Ngọc Diệp)',
-    message: 'Nhân ngày Phụ nữ Việt Nam 20/10, chúc bé iuuu của anh luôn rạng rỡ, xinh đẹp và tràn ngập niềm vui.\n\nMong em luôn cảm thấy được yêu thương, chiều chuộng và hạnh phúc bên anh mỗi ngày. Cảm ơn em vì đã đến và làm thế giới của anh trở nên dịu dàng hơn rất nhiều.\n\nHôm nay và cả những ngày sau, hãy luôn mỉm cười thật tươi nhé!',
+    recipient: 'bé iuuu Ngọc Diệp',
+    message: 'Nãy em hỏi anh về thuế nhà đất đúng không? Thật ra anh không có thông tư hay nghị định nào ở đây cả, chỉ có một bó hoa và ngàn lời chúc gửi tới em nhân ngày 20/10 thôi!\n\nChúc bé iuuu của anh luôn rạng rỡ, xinh đẹp, công việc thuận lợi và lúc nào cũng vui vẻ. Cảm ơn em vì đã đến bên anh Lực và làm cho mỗi ngày trôi qua đều trở nên thật ấm áp.\n\nĐừng quên là anh Lực luôn ở đây để yêu thương và chiều chuộng em nhé!',
     sender: 'Anh Lực'
   };
   const dialog = document.getElementById('greetingCard');
@@ -219,7 +219,7 @@
       localStorage.setItem(STORAGE_KEY, JSON.stringify(greeting));
       status.textContent = 'Đã lưu lời chúc của bạn.';
     } catch {
-      status.textContent = 'Đã cập nhật thiệp. Trình duyệt chưa cho phép lưu để dùng lần sau.';
+      status.textContent = 'Đã cập nhật thiệp.';
     }
     editButton.focus({ preventScroll: true });
     revealCard();
